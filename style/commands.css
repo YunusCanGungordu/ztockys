@@ -1,0 +1,120 @@
+html, body {background-color: rgb(49, 39, 49) !important; padding: 80px 0px 80px 0px;}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(49, 39, 49)
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(60, 50, 60);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 30, 38);
+}
+
+#command-enter .card {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+#command-enter .card-text {
+    font-size: 18px; 
+    font-family: Poppins-Regular;
+}
+
+#command-enter .btn {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    padding: 15px 40px 15px 40px;
+    background: rgb(60, 50, 60);
+    border: 0px;
+}
+
+#command-enter .btn:hover {
+    background: rgb(38, 30, 38);
+}
+
+#offcanvas-mod, #offcanvas-fun, #offcanvas-ticket {
+    background: rgb(60, 50, 60) !important;
+    color: white;
+}
+
+.offcanvas-title, #offcanvasRightLabel {
+    font-family: Poppins-Bold;
+    background: -webkit-linear-gradient(white, rgb(183, 183, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 5px;
+}
+
+.offcanvas-body {font-size: 18px; font-family: Poppins-Regular;}
+
+#mod-commands, #fun-commands, #ticket-commands {margin-top: 50px; padding: 20px 0px 20px 0px;}
+#mod-commands .row:first-child, #fun-commands .row:first-child, #ticket-commands .row:first-child {margin-top: 0;}
+#mod-commands .row, #fun-commands .row, #ticket-commands .row {margin-top: 20px;}
+#mod-commands .row .col-5, #fun-commands .row .col-5, #ticket-commands .row .col-5 {padding: 0;}
+
+#mod-commands .row .btn, #fun-commands .row .btn, #ticket-commands .row .btn {
+    width: 90%;
+    background-color: rgb(49, 39, 49);
+    border: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    position: relative;
+    right: -7px;
+    transition: 0.5s;
+}
+
+#mod-commands .row .btn:hover, #fun-commands .row .btn:hover, #ticket-commands .row .btn:hover{transform: scale(1.05);}
+
+.ball {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(149, 149, 247);
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    margin-top: 1.3%;
+}
+
+#moderation, #fun, #ticket {margin-top: 235px;}
+
+#moderation .card, #fun .card, #ticket .card {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+#moderation .card-title, #fun .card-title, #ticket .card-title {
+    font-family: Poppins-Bold;
+    background: -webkit-linear-gradient(white, rgb(183, 183, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#moderation .card-text, #fun .card-text, #ticket .card-text {font-size: 18px; font-family: Poppins-Regular;}
+
+@media screen and (max-width: 995px) {.col-lg-6:nth-child(2) {margin-top: 70px;}}
+
+#moderation .btn, #fun .btn, #ticket .btn {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    padding: 15px 40px 15px 40px;
+    background: rgb(60, 50, 60);
+    border: 0px;
+}
+
+@media screen and (max-width: 300px) {
+    #moderation .btn, #fun .btn, #ticket .btn {padding: 10px 30px 10px 30px;}
+}
+
+#moderation .btn:hover, #fun .btn:hover, #ticket .btn:hover {background: rgb(38, 30, 38);}
+
+@media screen and (max-width: 1199px) {
+    #fun .row .col-xl-6:nth-child(2), #moderation .row .col-xl-6:nth-child(2), #ticket .row .col-xl-6:nth-child(2) {margin-top: 75px;}
+}

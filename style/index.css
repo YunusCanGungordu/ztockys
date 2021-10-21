@@ -1,0 +1,132 @@
+html, body {background-color: rgb(49, 39, 49) !important; padding: 80px 0px 80px 0px;}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(49, 39, 49)
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(60, 50, 60);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(38, 30, 38);
+}
+
+#enter .card {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+#enter .card-title {
+    font-family: Poppins-Bold;
+    background: -webkit-linear-gradient(white, rgb(183, 183, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#enter .card-text {font-size: 18px; font-family: Poppins-Regular;}
+
+#enter .btn {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    padding: 10px 30px 10px 30px;
+}
+
+#preferences {margin-top: 235px;}
+
+#preferences .card {
+    width: 100%;
+    color: white;
+    background: transparent;
+    border: 0px;
+    transition: 0.5s;
+}
+
+#preferences .card:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 24px 36px rgba(0,0,0,0.11), 0 24px 46px var(--box-shadow-color);
+}
+
+#preferences .card-title {font-family: Poppins-Lights;}
+#preferences .card-text {font-family: Poppins-Regular; color: gray;}
+
+@media screen and (max-width: 700px) {
+    #preferences .card {width: 100%;}
+    #icon i {display: none;} 
+}
+
+#icon i {
+    background: -webkit-linear-gradient(white, rgb(183, 183, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    bottom: -22px;
+    right: 5px;
+    font-size: 30px;
+}
+
+#second-row {margin-top: 100px;}
+#commands {margin-top: 235px;}
+
+#commands .card {
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+}
+
+#commands .card-title {
+    font-family: Poppins-Bold;
+    background: -webkit-linear-gradient(white, rgb(183, 183, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#commands .card-text {font-size: 18px; font-family: Poppins-Regular;}
+
+@media screen and (max-width: 995px) {
+    #commands .col-lg-6:nth-child(2) {margin-top: 70px;}
+}
+
+#commands .btn {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Poppins-Regular;
+    padding: 15px 40px 15px 40px;
+    background: rgb(60, 50, 60);
+    border: 0px;
+}
+
+#commands .btn:hover {background: rgb(38, 30, 38);}
+#contact {margin-top: 235px;}
+
+#contact .card {
+    padding: 25px;
+    background: rgb(38, 30, 38);
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+}
+
+#contact .card-title {
+    font-family: Poppins-Medium;
+    background: -webkit-linear-gradient(white, rgb(183, 183, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#contact .card-text {font-family: Poppins-Regular; margin-top: 20px;}
+
+#contact .btn {
+    margin-top: 20px;
+    font-family: Poppins-Regular;
+    padding: 15px 40px 15px 40px;
+    background: rgb(49, 40, 49);
+    border: 0px;
+}
+
+#contact .btn:hover {background: rgb(49, 40, 54);}
+
+@media screen and (max-width: 650px) {#contact .btn {padding: 10px;}}
